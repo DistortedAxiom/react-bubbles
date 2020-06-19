@@ -77,10 +77,11 @@ form {
     display: flex;
     justify-content: space-between;
     padding: 4px 36px 4px 40px;
+    margin-top: 1rem;
   }
 
   input {
-    width: 100px;
+    width: 150px;
   }
 }
 
@@ -96,4 +97,16 @@ form {
     padding: 3px 8px;
     margin-top: 16px;
   }
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.login-button {
+  margin-top: 2rem;
 }
